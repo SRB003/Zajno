@@ -1,0 +1,106 @@
+@media (max-width: 1024px) {
+    .nav {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    .video {
+      height: 50vh;
+    }
+  
+    .video div {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .work {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .part1,
+    .part2 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .projects {
+      margin-top: 10px;
+    }
+  
+    .project {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .imagdiv {
+      width: 100%;
+      height: auto;
+    }
+  
+    .branding img {
+      width: 80%;
+      max-width: 300px;
+    }
+  
+    .grid-cols-4 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .playground .col-span-1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .playground .col-span-1 img {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    footer {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+  
+    footer .flex {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    footer .border-l {
+      border-left: none;
+      padding-left: 0;
+      margin-top: 1rem;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .nav {
+      flex-direction: column;
+    }
+  
+    .nav a {
+      font-size: 16px;
+    }
+  
+    .video {
+      height: 40vh;
+    }
+  
+    .grid-cols-4 {
+      grid-template-columns: 1fr;
+    }
+  
+    .project {
+      width: 100%;
+    }
+  
+    .footer div {
+      text-align: center;
+    }
+  }
+  
