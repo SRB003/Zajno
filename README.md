@@ -21,4 +21,4 @@ An experimental **WebGL** project that combines **Locomotive Scroll, Three.js, a
    git clone https://github.com/your-username/repository-name.git
    cd repository-name
    
-![Project Preview](public/Screenshot%202025-03-03%20at%2010.10.02%20AM.png)
+![Project Preview](public/Screenshot 2025-03-03 at 10.10.02 AM.png)
